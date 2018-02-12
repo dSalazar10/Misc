@@ -28,6 +28,6 @@ img = cv2.imread('Logo.png')
 mkdir("AppIcon.appiconset")
 
 # create new images resized to the above specification
-for i in range(0, 13):
+for i in range(0, 18):
     new_img = cv2.resize(img, (size[i], size[i]))
     cv2.imwrite(filenames[i],new_img)
